@@ -20,7 +20,7 @@ export default function PatientForm() {
       addPatient(data) 
       toast.success("Paciente Registrado")
     }
-    // reset()
+    reset()
   }
   
   useEffect(() => {
